@@ -1,0 +1,25 @@
+The gridworld demo is a fun way to experiment with reinforcement learning algorithms.
+
+The gridworld demo is part of the RLtoolkit, which can be downloaded from http://incompleteideas.net/rlai.cs.ualberta.ca/RLAI/RLtoolkit/RLtoolkit.zip.
+
+After you have downloaded and decompressed the RLtoolkit.zip file, you should have a folder called RLtoolkit. You should put this folder where it will be found by the version of Python that you have running on your machine. 
+
+Of course, you will need Python to be installed on your machine, including pythonw for the graphics.
+
+Then, run the demo by the following steps:
+
+1. Start Python by, e.g., typing "pythonw" to a command line such as in the "terminal" program on a mac.
+
+2. In Python, at the prompt, load the RLtoolkit by typing "from RLtoolkit import *"
+
+3. Start the Gridworld Demo by typing "demo.demos("gwg", "run")". A gridworld window should pop up.
+
+4. Click on the titlebar of the gridworld window to switch to Python. You should now see the gridworld menus, such as "Gridworld" and "Agent".
+
+5. Select a gridworld from the Gridworld menu and an agent from the Agent menu. Display and set your parameters from the Agent menu. There is a little display bug in that a newly created gridworld window does not show its contents. You can see them by going to the Simulation menu and selecting "Redisplay".
+
+6. Now you are ready to go. Use the buttons at the bottom of the window to control the simulation and the display.
+
+If you change any of the code, for example in gwguimain.py, you would save the file, close all your gridworld windows, and then type "reload(demo.gridworld.gwguimain)" followed by "demo.demos("gwg", "run")" again to restart using the changed code.
+
+-RS
